@@ -13,18 +13,15 @@ void une_etoile( int n){
 	int i,j;
 	j=n;
 	for (i=n;i>0;i--){
-		{
-	
-	while (j>0){
-	
-	printf(" ");j--;	}
-		};
+		espace(j);
+		
+		;
 		printf( "*");
 		printf("\n");
-		j--;
+		j--;}
 		
 	}
-         }
+         
 
 		int main(){
 			int n;
