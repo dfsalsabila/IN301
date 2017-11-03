@@ -4,12 +4,12 @@
 
 void init(int tab[N]){
 	
-	tab[0]=2; tab[1]=3; tab[2]= -2;
-tab[3]=6; tab[4]=-5; tab[6]=7;
+	tab[0]=2; tab[1]=3; tab[2]= 2;
+tab[3]=0; tab[4]=5; tab[6]=7;
 }
 	
 int somme(int tab[N], int g, int d){
-int s;
+int s=0;
 int i;
 for(i=g; i<=d; i++)
    s+= tab[i];
@@ -23,8 +23,8 @@ int tab[N];
 	int d = 4;
 	int s = 0;
 	
-init(tab[N]);
-s=somme(tab[6],g,d);
+init(tab);
+s=somme(tab,g,d);
 printf(" s = %d ", s);
 
 }	
